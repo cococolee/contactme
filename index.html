@@ -15,13 +15,13 @@
     body {
       text-align: center;
       font-family: 'Courier New', monospace;
-      line-height: 0.8;
+      line-height: 0.9;
     }
 
     header {
       font-family: 'Verdana', sans-serif;
       color: white;
-      font-size: 5em;
+      font-size: 3em;
       padding: 15px;
       text-align: left;
       position: absolute;
@@ -89,6 +89,27 @@
       z-index: -1;
     }
     
+      .contact-container {
+        padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+    text-align: center;
+  }
+
+  .contact-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1.2em;
+  }
+
+  .contact-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+    
     .get-in-touch {
       display: block;
       margin: 20px auto; /* Center the button and add space around it */
@@ -110,9 +131,7 @@
 </head>
 <body>
   <header>
-    <h1>Contact 
-      <br>
-      Me</h1>
+        <h1>GET IN TOUCH</h1>
   </header>
 
   <nav>
@@ -130,6 +149,23 @@
           <div class="about-gif"></div>
   </section>
   
+    <section id="contact" class="contact-container">
+    <h2>Contact Me</h2>
+    <table class="contact-table">
+      <tr>
+        <td>Email:</td>
+        <td><a href="mailto:0229chloelee@gmail.com">0229chloelee@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>LinkedIn:</td>
+        <td><a href="https://www.linkedin.com/in/chloe-lee-77aa90265" target="_blank">www.linkedin.com/in/chloe-lee-77aa90265</a></td>
+      </tr>
+      <tr>
+        <td>Instagram:</td>
+        <td><a href="https://www.instagram.com/leechloe_" target="_blank">@leechloe_</a></td>
+      </tr>
+    </table>
+  </section>
       
       <div> 
        <a href="mailto:0229chloelee@gmail.com" class="get-in-touch">Get in touch</a>
